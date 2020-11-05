@@ -5,8 +5,8 @@ public class SumMajDiago {
 	
 	public static double sumMajorDiagonal(double[][] m) {
 		double sum = 0;
-		for (int i=0; i<m.length; i++) {
-			for (int j=0; j<m.length; j++) {
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m.length; j++) {
 				if (i == j) {
 					sum += m[i][j];
 				}
@@ -21,8 +21,8 @@ public class SumMajDiago {
 		Scanner input = new Scanner(System.in);
 		double A[][] = new double[4][4];
 		
-		for (int i=0; i<A.length; i++) {
-			for (int j=0; j<A.length; j++) {
+		for (int i = 0; i < A.length; i++) {
+			for (int j = 0; j < A.length; j++) {
 				A[i][j] = input.nextDouble();
 			}
 		}
